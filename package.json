@@ -1,0 +1,33 @@
+{
+  "name": "reacttest",
+  "version": "1.0.0",
+  "description": "react template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel public/index.html",
+    "build": "parcel build public/index.html",
+    "start": "npm run build && live-server dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ryowuandjanet/reacttest.git"
+  },
+  "keywords": [
+    "react",
+    "template"
+  ],
+  "author": "Leowu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryowuandjanet/reacttest/issues"
+  },
+  "homepage": "https://github.com/ryowuandjanet/reacttest#readme",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "parcel-bundler": "^1.12.4",
+    "props-type": "^1.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "src": "^1.1.2"
+  }
+}
